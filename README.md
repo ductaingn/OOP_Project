@@ -10,5 +10,6 @@
 
 
 #### *Note*
+> - New feature of v0.0.3 is not working
 > - No need to work on CSS positioning since I'm using GridPane.
 > - GUI 2.2 will be available soon! 
