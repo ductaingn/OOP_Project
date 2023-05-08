@@ -25,6 +25,7 @@ public class GUI12Controller {
             stage.setScene(scene);
             stage.show();
             switchedSuccessfully=true;
+            System.out.println("Switched: " + switchedSuccessfully);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

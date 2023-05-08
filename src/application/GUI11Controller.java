@@ -53,6 +53,8 @@ public class GUI11Controller implements Initializable{
 
             //Close GUI 1.1 when GUI 2.1 is opened (This feature is not working!)
             GUI12Controller gui12Controller = loader.getController();
+            System.out.println(gui12Controller.isSwitchedToGUI21());
+            
             if(gui12Controller.isSwitchedToGUI21()){
                 closeStage();
             }
